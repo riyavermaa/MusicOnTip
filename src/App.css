@@ -1,0 +1,68 @@
+/* App.css */
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .navbar {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.dark-mode .card {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.light-mode .navbar {
+    background-color: #f8f9fa;
+    color: #000000;
+}
+
+.light-mode .card {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-outline-success {
+    color: #ffffff;
+    border-color: #28a745;
+}
+
+.dark-mode .btn-outline-success {
+    color: #000000;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.light-mode .btn-outline-success {
+    color: #28a745;
+    background-color: #ffffff;
+    border-color: #28a745;
+}
+
+.btn-outline-secondary {
+    color: #ffffff;
+    border-color: #6c757d;
+}
+
+.dark-mode .btn-outline-secondary {
+    color: #000000;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.light-mode .btn-outline-secondary {
+    color: #6c757d;
+    background-color: #ffffff;
+    border-color: #6c757d;
+}
